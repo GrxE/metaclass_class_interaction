@@ -44,4 +44,5 @@ class Base(metaclass=Metacls):
         # can return anything or None
         return
 
-inst = Base()
+instance = Base("Create instance", key="word")
+value = inst("Call instance", word="key")
