@@ -11,8 +11,7 @@ META __call__ : <class '__main__.Base'> with: ('Create instance',) - {'key': 'wo
 CLASS __new__ : <class '__main__.Base'> with: (<class '__main__.Base'>,) - {}
 CLASS __init__ : <__main__.Base object at 0x101759cc0> with: () - {}
 CLASS __call__ : <__main__.Base object at 0x101759cc0> with: ('Call instance',) - {'word': 'key'}
-
-´´´
+```
 
 Python >= 3.6 requried for the f-strings
 
